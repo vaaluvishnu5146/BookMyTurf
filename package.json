@@ -1,0 +1,20 @@
+{
+  "name": "bookingsbackend",
+  "version": "1.0.0",
+  "description": "Bookings Backend helps us to book Marathon slots, turfs, Cricket stadium, Table, shows, cinemas, concerts etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "vishnu",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
+}
